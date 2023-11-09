@@ -2,7 +2,6 @@
 let btn = document.querySelector("button");
 let qrText = document.getElementById("qrText")
 let qrImage = document.getElementById("qrImage");
-// let imgBox = document.getElementById("imgBox");
 
 btn.addEventListener ("click", async () => {
     await getCode();
